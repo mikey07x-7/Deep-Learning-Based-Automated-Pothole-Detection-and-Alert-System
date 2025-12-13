@@ -1,5 +1,5 @@
 # 🚧 Vision-Based Intelligent Transportation System  
-## Real-Time Pothole Detection & Road Condition Monitoring
+## Deep Learning Based- Automated Pothole Detection and Alert System
 
 A full-stack AI-powered system for **real-time pothole detection**, **road condition monitoring**, and **visual analytics**, built using **YOLO deep learning**, **FastAPI**, **React**, and **Supabase**.
 
