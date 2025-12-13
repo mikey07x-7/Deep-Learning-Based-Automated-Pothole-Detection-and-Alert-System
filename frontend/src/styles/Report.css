@@ -1,0 +1,58 @@
+/* REPORT PAGE */
+
+.report-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.report-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.report-card {
+    padding: 25px;
+}
+
+.label {
+    font-size: 15px;
+    color: #9ca3af;
+    margin-bottom: 6px;
+    display: block;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    background: #1f2937;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.loc-row {
+    display: flex;
+    gap: 15px;
+}
+
+.loc-item {
+    flex: 1;
+}
+
+.desc-box {
+    height: 120px;
+    resize: none;
+}
+
+.image-preview {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 10px 0;
+}

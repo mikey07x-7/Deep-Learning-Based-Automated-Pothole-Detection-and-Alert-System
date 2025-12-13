@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+aiofiles
+supabase
+supabase
+sqlalchemy
+pandas
+python-jose
+passlib[bcrypt]
+python-multipart
+opencv-python
+torch
+Pillow
+websockets
+python-socketio[client]   # optional
+email-validator
+ultralytics

@@ -1,0 +1,95 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+.auth-box {
+    width: 420px;
+    background: #0d1220;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 0 20px #0008;
+    color: #fff;
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.role-switch {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.role-switch button {
+    flex: 1;
+    padding: 10px;
+    background: #111827;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.role-switch .active {
+    background: #2563eb;
+    color: #fff;
+}
+
+.auth-box form {
+    text-align: left;
+}
+
+.auth-box label {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.auth-box input {
+    width: 100%;
+    padding: 12px;
+    background: #1f2937;
+    border: none;
+    border-radius: 6px;
+    margin: 6px 0 16px 0;
+    color: #fff;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.switch-text {
+    margin-top: 15px;
+    color: #aaa;
+}
+
+.switch-text span {
+    color: #60a5fa;
+    cursor: pointer;
+}
+/* ACCOUNT PAGE EXTRA STYLES */
+.info-label {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.info-value {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}

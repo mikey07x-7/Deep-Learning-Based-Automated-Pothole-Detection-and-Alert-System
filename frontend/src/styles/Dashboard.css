@@ -1,0 +1,96 @@
+/* Dashboard Page */
+
+.dashboard-container {
+    padding: 20px;
+}
+
+.stats-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.stat-box h3 {
+    font-size: 18px;
+    color: #9ca3af;
+}
+
+.stat-box p {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.detect-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Card */
+.detect-card {
+    overflow: hidden;
+}
+
+.detect-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.detect-body {
+    margin-top: 12px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.status-badge.not-fixed {
+    background: #7f1d1d;
+    color: #f87171;
+}
+
+.status-badge.fixed {
+    background: #065f46;
+    color: #6ee7b7;
+}
+
+.detect-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn-blue-small {
+    background: #2563eb;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.btn-outline-small {
+    border: 1px solid #6b7280;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.btn-green {
+    background: #059669;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+}
