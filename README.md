@@ -108,7 +108,7 @@ SUPABASE_KEY=your_supabase_service_key
 SUPABASE_BUCKET=detections
 MODEL_PATH=pothole.pt
 ```
-### Fronend '.env'
+### Frontend '.env'
 ```env
 VITE_API_BASE_URL=http://localhost:8000
 VITE_SUPABASE_URL=your_supabase_url
