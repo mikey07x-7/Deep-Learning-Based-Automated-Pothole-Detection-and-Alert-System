@@ -107,38 +107,38 @@ SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_service_key
 SUPABASE_BUCKET=detections
 MODEL_PATH=pothole.pt
-
+```
 ### Fronend '.env'
 ```env
 VITE_API_BASE_URL=http://localhost:8000
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_anon_key
 VITE_MAPBOX_TOKEN=your_mapbox_token
-
+```
 🚀 Installation & Setup
 1️⃣ Backend Setup
+```
 cd backend
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-
+```
 
 Backend will run at:
-
 http://127.0.0.1:8000
 
 2️⃣ Frontend Setup
+```
 cd frontend
 npm install
 npm run dev
-
+```
 
 Frontend will run at:
-
 http://localhost:5173
 
-📡 API Endpoints
+### 📡 API Endpoints
 | Method | Endpoint                 | Description               |
 | ------ | ------------------------ | ------------------------- |
 | POST   | `/auth/login`            | User login                |
