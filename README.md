@@ -74,24 +74,26 @@ This project detects potholes from video streams, stores geo-tagged detections, 
 pothole-system/
 │
 ├── backend/
-│ ├── app/
-│ │ ├── main.py
-│ │ ├── model_infer.py
-│ │ ├── detection_worker.py
-│ │ ├── supabase_client.py
-│ │ └── auth.py
-│ ├── pothole.pt
-│ ├── requirements.txt
-│ └── .env
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── model_infer.py
+│   │   ├── detection_worker.py
+│   │   ├── supabase_client.py
+│   │   └── auth.py
+│   │
+│   ├── pothole.pt
+│   ├── requirements.txt
+│   └── .env
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── pages/
-│ │ ├── components/
-│ │ ├── services/
-│ │ └── App.tsx
-│ ├── .env
-│ └── package.json
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── services/
+│   │   └── App.tsx
+│   │
+│   ├── .env
+│   └── package.json
 │
 └── README.md
 
